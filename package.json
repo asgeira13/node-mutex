@@ -1,0 +1,17 @@
+{
+  "name": "mutex-proof-of-concept",
+  "version": "1.0.0",
+  "description": "Testing mutexes in node ",
+  "main": "./dist/app.js",
+  "scripts": {
+    "start": "npm run build && npm run serve",
+    "build": "npm run build-ts",
+    "serve": "nodemon dist/server.js",
+    "build-ts": "tsc"
+  },
+  "author": "Ásgeir Atlason",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

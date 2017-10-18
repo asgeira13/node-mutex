@@ -1,7 +1,11 @@
 {
-  "name": "mutex-proof-of-concept",
-  "version": "1.0.0",
-  "description": "Testing mutexes in node ",
+  "name": "node-mutex",
+  "version": "0.0.1",
+  "description": "Proof of concept for using mutexes in node with typescript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asgeira13/node-mutex"
+  },
   "main": "./dist/app.js",
   "scripts": {
     "start": "npm run build && npm run serve",
@@ -10,7 +14,7 @@
     "build-ts": "tsc"
   },
   "author": "Ásgeir Atlason",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^1.12.1"
   }
